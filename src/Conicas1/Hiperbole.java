@@ -1,3 +1,5 @@
+package Conicas1;
+
 public class Hiperbole{
 
     //Atributos

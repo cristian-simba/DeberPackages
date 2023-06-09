@@ -1,3 +1,5 @@
+package Conicas1;
+
 public class Parabola {
     private float k;
     private float h;
@@ -61,7 +63,8 @@ public class Parabola {
         return h;
     }
 
-    public void imprimirDatos(){
+    public boolean imprimirDatos(){
         System.out.println(this.h);
+        return false;
     }
 }
