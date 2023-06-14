@@ -27,6 +27,7 @@ public class Main {
 
         //Elipse
         hiperbole figura1 = new hiperbole(2.63, 5.78);
+        hiperbole figura2 = new hiperbole(6.33, 12.96);
 
         //Creamos la pantalla del menu principal
         System.out.println("\n\t------------------------------------Figuras 3D con Package Equipo 2----------------------------------");
@@ -51,7 +52,9 @@ public class Main {
             case ("b"):
                 System.out.println("\n-----> Ha seleccionado Hiperbole");
                 System.out.println("\n\t-----> Para primera instancia: ");
-                figura1.variables();
+                    figura1.variables();
+                System.out.println("\n\t-----> Para segunda instancia: ");
+                    figura2.variables();
                 break;
 
             case ("c"):
