@@ -25,7 +25,7 @@ public class hiperbole {
         c_hip = Math.sqrt((this.a_hip*this.a_hip)+(this.b_hip*this.b_hip));
         Lr_hip = ((2*(this.b_hip*this.b_hip))/this.a_hip);
         //Mensaje de coordenadas tomadas
-        System.out.println("Se toma en cuenta el centro (0,0)");
+        System.out.println("\nSe toma en cuenta el centro (0,0)");
         System.out.println("En el eje Y tanto hacia arriba y abajo: " + this.a_hip);
         System.out.println("En el eje x tanto hacia derecha e izquierda: " + this.b_hip);
         System.out.println("Con estas coordenadas se dibuja un rectangulo donde se generan las asintotas al momento de trazar una cruz entre los vertices contrarios");
