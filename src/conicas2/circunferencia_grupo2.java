@@ -52,4 +52,10 @@ public class circunferencia_grupo2 {
         return (getAngulo_central()/2);
     }
 
+    public void imprimir_Datos(){
+        System.out.println("\nEl perimetro de la circunferencia es " + perimetro_cir());
+        System.out.println("El area de la circunferencia es " + area_cir());
+        System.out.println("El angulo inscrito es " + angulo_inscrito_cir());
+    }
+
 }
