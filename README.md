@@ -19,18 +19,18 @@ Entregables: link del repositorio de GitHub con capturas de pantalla en el "READ
 ## Capturas del programa en ejecución
 
  1. Código del Main
-	![](C:\Users\bryan\OneDrive\Escritorio\Conicas1\Images\codigo_main.png)
+	![](Images/codigo_main.png)
     2. Package del Equipo 2
-    ![](C:\Users\bryan\OneDrive\Escritorio\Conicas1\Images\package.png)
+    ![](Images/package.png)
  3. Ejecución del archivo Main:
 	1. Main:
-	![](C:\Users\bryan\OneDrive\Escritorio\Conicas1\Images\main.png)
+	![](Images/main.png)
 	2. Parábola:
-	![](C:\Users\bryan\OneDrive\Escritorio\Conicas1\Images\parabola.png)
+	![](Images/parabola.png)
 	3. Hipérbola:
-	![](C:\Users\bryan\OneDrive\Escritorio\Conicas1\Images\hiperbole.png)
+	![](Images/hiperbole.png)
 	4. Circunferencia:
-	![](C:\Users\bryan\OneDrive\Escritorio\Conicas1\Images\circunferencia.png)
+	![](Images/circunferencia.png)
 	5. Elipse:
-	![](C:\Users\bryan\OneDrive\Escritorio\Conicas1\Images\elipse.png)
+	![](Images/elipse.png)
 
