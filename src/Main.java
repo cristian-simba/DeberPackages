@@ -1,43 +1,27 @@
-import Conicas1.Parabola;
-import conicas2.*;
+import Conicas1.*;
 
-import java.security.spec.RSAOtherPrimeInfo;
 import java.util.Scanner;
 
-/*Esta clase contiene un menú compuesto por el package del equipo 2, realizado por todos los integrantes del equipo 1
-
-* Equipo 1 - Integrantes
-* ----> Parabola:
-* ----> Hiperbole:
-*---->  Circunferencia:
-* ----> Elipse:
-
-* */
 public class Main {
     public static void main(String[] args) {
 
-        //Llamamos al m[etodo para el scanner
+        //Llamamos al metodo para el scanner
         Scanner entrada = new Scanner(System.in);
 
-        /* En esta seccion agregaremos las instancias, dependiendo de cada sub equipo y conica */
-        //Parabola
-        Parabola_Equipo2 figura3  = new Parabola_Equipo2(6.3f, 7.9f,8.7f, 6.12f,4.5f);
-        Parabola_Equipo2 figura4  = new Parabola_Equipo2(2.33f, 3.33f, 5.55f, 6.66f, 7.77f);
+        //Creación de las instancias
+        Parabola figura1 = new Parabola(9,8,19,30);
 
         //Hiperbola
-        hiperbole figura1 = new hiperbole(2.63, 5.78);
-        hiperbole figura2 = new hiperbole(6.33, 12.96);
+        Hiperbole figura2 = new Hiperbole(9,1,2,4,3,2,20);
 
         //Circunferencia
-        circunferencia_grupo2 figura5 = new circunferencia_grupo2(6.37f, 9.99f);
-        circunferencia_grupo2 figura6 = new circunferencia_grupo2(1.23f, 4.635f);
+        Circunferencia figura3 = new Circunferencia(2,3,4,5,20,9);
 
         //Elipse
-        Elipse figura7 = new Elipse(6.453, 12.44);
-        Elipse figura8 = new Elipse(9.99, 6.66);
+        ELIPSEE figura4 = new ELIPSEE(4,5,2,20,9,90);
 
         //Creamos la pantalla del menu principal
-        System.out.println("\n\t------------------------------------Figuras 3D con Package Equipo 2----------------------------------");
+        System.out.println("\n\t------------------------------------Figuras 3D con Package Equipo 1----------------------------------");
 
         System.out.println("\nEl presente sistema permite al usuario el calcular diferentes operaciones de cónicas, mediante el empleo" +
                             "de un menu y selección. \nLas conicas que se ofrecen son:");
@@ -51,7 +35,7 @@ public class Main {
         String opt = entrada.next();
 
 
-        switch (opt) {
+        /*switch (opt) {
             case ("a") -> {
                 System.out.println("\n-----> Ha seleccionado Parabola");
                 System.out.println("\n\t-----> Para primera instancia: ");
@@ -81,7 +65,7 @@ public class Main {
                     figura8.imprimir_Datos();
             }
             default -> System.out.println("----> ERROR! Esta conica no se encuentra en el sistema!");
-        }
+        }*/
 
     }
 }
