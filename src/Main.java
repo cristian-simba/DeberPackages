@@ -21,10 +21,10 @@ public class Main {
         ELIPSEE figura4 = new ELIPSEE(4,5,2,20,9,90);
 
         //Creamos la pantalla del menu principal
-        System.out.println("\n\t------------------------------------Figuras 3D con Package Equipo 1----------------------------------");
+        System.out.println("\n\tFiguras 3D con Package Equipo 1");
 
-        System.out.println("\nEl presente sistema permite al usuario el calcular diferentes operaciones de cónicas " +
-                "\nLas conicas que se ofrecen son:");
+        System.out.println("\nEl presente sistema permite al usuario el calcular diferentes " +
+                "operaciones de cónicas " +"\nLas conicas que se ofrecen son:");
 
         System.out.println("\n1. Parabola");
         System.out.println("2. Hiperbole");
