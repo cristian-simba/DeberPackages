@@ -66,13 +66,15 @@ public class ELIPSEE {
     }
     //UNO
     private float distanciaSemiejes() {
-        return this.foco = (this.a - this.b) / (this.a + this.b);
+        float distancia = this.foco = (this.a - this.b) / (this.a + this.b);
+        return distancia;
     }
     private double perimetroElipse () {
-        return (float) (3.14 * ((1 + 3 * this.foco) / (Math.pow((10 + (4 - 3 * this.foco)), 0.5))));
+        float perimetro = (float) (3.14 * ((1 + 3 * this.foco) / (Math.pow((10 + (4 - 3 * this.foco)), 0.5))));
+        return perimetro;
     }
-    public float area ( float a, float b ){//donde "a" y "b" son los semiejes mayor y menor
-        float A = (float) ((3.14) * a * b);
+    public float area (){//donde "a" y "b" son los semiejes mayor y menor
+        float A = (float) ((3.14) * this.a * this.b);
         return A;
     }
     public void setPunto_central(float h) {
@@ -84,6 +86,13 @@ public class ELIPSEE {
     }
     public void fococ(){
         foco = (a*a) - (b*b);
+    }
+
+    public void imprimir(){
+        System.out.println("El area es: "+distanciaSemiejes());
+        System.out.println("El perimetro es: "+perimetroElipse());
+        System.out.println("El area es: "+area());
+        System.out.println("El foco es "+getFoco());
     }
 //final
 }

@@ -93,10 +93,10 @@ public class Circunferencia {
     }
 
     public void imprimir() {
-        System.out.println(this.radio);
-        System.out.println(this.a_semicircunferencia);
-        System.out.println(this.diametro);
-        System.out.println(this.longitud);
-        System.out.println(this.area);
+        System.out.println("El radio es: "+ this.radio);
+        System.out.println("La semicircunferencia es: "+this.a_semicircunferencia);
+        System.out.println("El diametro es: "+this.diametro);
+        System.out.println("La longitud es: "+this.longitud);
+        System.out.println("El area es: "+this.area);
     }
 }
